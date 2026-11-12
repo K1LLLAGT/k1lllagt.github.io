@@ -1,0 +1,43 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Pocket Forge - privacy policy</title>
+<style>
+  body { font-family: system-ui, sans-serif; max-width: 42rem; margin: 2rem auto; padding: 0 1rem; line-height: 1.55; color: #222; background: #fff; }
+  @media (prefers-color-scheme: dark) { body { color: #ddd; background: #111; } a { color: #8ab4f8; } }
+</style>
+</head>
+<body>
+<h1>Pocket Forge &ndash; privacy policy</h1>
+<p><em>Applies to the Android app &ldquo;Pocket Forge&rdquo; (package com.k1lllagt.pocketforge). Last updated: November 12, 2026.</em></p>
+
+<h2>Summary</h2>
+<p>Pocket Forge does not collect, store on a server, share or sell any personal data. It has no accounts, no advertising, no analytics and no crash reporting. The app does not request the Android Internet permission, so it cannot send data over the network.</p>
+
+<h2>What the app does</h2>
+<p>Pocket Forge is a remote control for a build workspace that runs inside Termux, a separate terminal app that you install yourself. When you tap a button, Pocket Forge asks Termux, on the same device, to run a command, and then shows you the text that Termux returns. This happens entirely on your device.</p>
+
+<h2>Permission used</h2>
+<ul>
+  <li><strong>Run commands in Termux environment</strong> (com.termux.permission.RUN_COMMAND): lets Pocket Forge ask Termux to run commands. It is only used for the commands you start, and you can withdraw it at any time in Android settings.</li>
+</ul>
+
+<h2>Data kept on your device</h2>
+<ul>
+  <li>Your chosen colour theme and a note that first-run setup is finished. These stay in the app&rsquo;s private storage and are removed when you uninstall the app.</li>
+  <li>The command output shown on the Output tab is held in memory only.</li>
+  <li>If you tap <em>Install workspace in Termux</em>, the app hands its bundled installer script to Termux on the same device. Termux saves it in its own home folder and runs it in a window you can watch. You can read or delete that file at any time.</li>
+</ul>
+
+<h2>Other software</h2>
+<p>Termux and the tools the workspace runs (for example Gradle, the Android SDK, or rclone, if you choose to set up Google Drive sync) are separate programs with their own terms and privacy practices. Any network traffic they create is created by them, at your request, and is not seen by Pocket Forge or by its developer. Buttons that open F-Droid or GitHub open your web browser, which is governed by those sites&rsquo; policies.</p>
+
+<h2>Children</h2>
+<p>Pocket Forge is a developer tool and is not directed at children.</p>
+
+<h2>Changes and contact</h2>
+<p>This policy may be updated; the date above shows the latest revision. Contact: <a href="https://github.com/K1LLLAGT">github.com/K1LLLAGT</a></p>
+</body>
+</html>
